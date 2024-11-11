@@ -1,0 +1,74 @@
+@font-face {
+    font-family: milit;
+    src: url(./campus/CAMPUS\ PERSONAL\ USE.ttf);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2019/03/27/15/42/space-4085276_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title {
+    color: #ffffff;
+    font-family: milit;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 10;
+}
+
+#main {
+    background-color: #faebd78f;
+    align-items: center;
+    text-align: center;
+    line-height: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20vw;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+.main {
+    margin: 10px;
+
+}
+
+.main button {
+    display: flex;
+    margin-left: 33%;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: #000000;
+    background-color: #6e2727;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+button:hover{
+    background-color: #6e2727;
+    color: #ffffff;
+    padding: 12px 22px;
+}
+
+input {
+    border-radius: 19px;
+    border: none;
+    padding: 6px;
+
+}
